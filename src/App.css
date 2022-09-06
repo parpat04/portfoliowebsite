@@ -14,13 +14,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #3b3b3c;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  font-family: 'Montserrat', sans-serif;
   color: white;
 }
 
@@ -35,4 +35,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main {
+  position: relative;
+  display: flex;
 }
