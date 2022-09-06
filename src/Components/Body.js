@@ -7,9 +7,10 @@ import PDF from './images/ParthivPatelResume-Copy.pdf'
 import Skill from './Skill'
 import Work from './Work'
 import Contact from './Contact'
-import workarr from './Work'
+import WorkArray from './WorkArray'
 
 const Body = () => {
+  const collectionWork = WorkArray.map(item => <Work key={item.id} work={item} />)
   return (
     <div className='info'>
       <div className='header'>
@@ -53,7 +54,7 @@ const Body = () => {
         <h4 className='some-info' id='work'> Take A Look at My</h4>
         <h1 className='about-title'>Work</h1>
         <div className='work-body'>
-          workarr.map(work)
+          {collectionWork}
         </div>
       </div>
       <div>
@@ -64,12 +65,12 @@ const Body = () => {
           <div className='contact-row'>
             <div className='contact-buttons'>
               <FontAwesomeIcon icon={faEnvelope} className='contact-icons' size='3x' />
-              <a href='mailto:parthivpatel46143@gmail.com'>parthivpatel46143@gmail.com</a>
+              <a href='mailto:parthivpatel46143@gmail.com' target={"_blank"} rel="noreferrer">parthivpatel46143@gmail.com</a>
               <h4>Email Me</h4>
             </div>
             <div className='contact-buttons'>
               <FontAwesomeIcon icon={faLinkedinIn} className='contact-icons' size='3x'/>
-              <a href='https://www.linkedin.com/in/parthiv-patel-a2b257224/'>LinkedIn</a>
+              <a href='https://www.linkedin.com/in/parthiv-patel-a2b257224/' target={"_blank"} rel="noreferrer">LinkedIn</a>
               <h4>Connect With Me</h4>
             </div>
           </div>
