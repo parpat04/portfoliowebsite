@@ -3,7 +3,7 @@ import face from "./images/face.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
-import PDF from './images/ParthivPatelResume-Copy.pdf'
+import PDF from './images/ParthivPatelResume.pdf'
 import Skill from './Skill'
 import Work from './Work'
 import Contact from './Contact'
@@ -22,8 +22,8 @@ const Body = () => {
           <h1><font color="white">Parthiv</font> Patel</h1>
           <p>A Computer Engineering student at <font color="white">Purdue University</font> and an <font color="white">aspiring software engineer</font> passionate about technology and coding.</p>
           <ul>
-            <li><a href='https://www.linkedin.com/in/parthiv-patel-a2b257224/' target={"_blank"} rel="noreferrer"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-            <li><a href='http://google.com' target={"_blank"} rel="noreferrer"><FontAwesomeIcon className='git' icon={faGithub} /></a></li>
+            <li><a href='https://www.linkedin.com/in/parthiv-patel04/' target={"_blank"} rel="noreferrer"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+            <li><a href='https://github.com/parpat04' target={"_blank"} rel="noreferrer"><FontAwesomeIcon className='git' icon={faGithub} /></a></li>
             <li><a className='resume' href={PDF} target={"_blank"} rel="noreferrer">Resumé</a></li>
           </ul>
         </div>
@@ -70,7 +70,7 @@ const Body = () => {
             </div>
             <div className='contact-buttons'>
               <FontAwesomeIcon icon={faLinkedinIn} className='contact-icons' size='3x'/>
-              <a href='https://www.linkedin.com/in/parthiv-patel-a2b257224/' target={"_blank"} rel="noreferrer">LinkedIn</a>
+              <a href='https://www.linkedin.com/in/parthiv-patel04/' target={"_blank"} rel="noreferrer">LinkedIn</a>
               <h4>Connect With Me</h4>
             </div>
           </div>
