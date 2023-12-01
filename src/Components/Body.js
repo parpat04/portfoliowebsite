@@ -45,7 +45,7 @@ const Body = () => {
         <Skill className='skill-element' image='https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png' name='VS Code' />
         <Skill className='skill-element' image='https://cdn-icons-png.flaticon.com/512/220/220215.png' name='Office' />
         <Skill className='skill-element' image='https://cdn-icons-png.flaticon.com/512/226/226777.png' name='Java' />
-        <Skill className='skill-element' image='https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/c-program-icon.png' name='C' />
+        <Skill className='skill-element' image='https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/c-program-icon.png' name='C/C++' />
         <Skill className='skill-element' image='https://cdn-icons-png.flaticon.com/512/1260/1260667.png' name='React' />
         <Skill className='skill-element' image='https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png' name='Git' />
         <Skill className='skill-element' image='https://cdn-icons-png.flaticon.com/512/6124/6124995.png' name='Linux' />

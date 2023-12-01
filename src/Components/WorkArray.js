@@ -1,6 +1,36 @@
 const WorkArray = [
     {
-        id: "1",
+        id:"1",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Lockheed_Martin_logo.svg/2560px-Lockheed_Martin_logo.svg.png",
+        name: "Lockheed Martin Software Engineering Internship",
+        tech: "ASP.NET MVC, C#, MySQL, Git, HTML, Javascript",
+        one: "Developed and launched an ASP.NET-based Agile challenge web app, resulting in a 25% increase in employee engagement and driving continuous Agile skill development",
+        two: "Engineered roles and teams data architecture to support over 200 users across 57 teams through MySQL scripts",
+        three: "Restricted access to certain sub-pages using Ping-Federate API SSO groups and 5 different authorization filters"
+
+    },
+    {
+        id:"2",
+        image: "https://purepng.com/public/uploads/large/purepng.com-ibm-logologobrand-logoiconslogos-251519939176ka7y8.png",
+        name: "IBM Client and Technical Engineering Accelerate Internship",
+        tech: "HTML, Javascript, CSS, React",
+        one: "Innovated a chatbot for a simulated banking system on the IBM Watson Assistant platform",
+        two: "Delivered an effective sales pitch to the CTO of the simulated bank, resulting in a successful acquisition of the chatbot and a 96% approval rate",
+        three: "Leveraged HTML and JavaScript to design and launch a dynamic bank website, effectively integrating the chatbot"
+
+    },
+    {
+        id:"3",
+        image: "https://www.google.com/recaptcha/about/images/reCAPTCHA-enterprise.png",
+        name: "CAPTCHA Breaker",
+        tech: "Python, OpenCV, Git",
+        one: "Developed a computer vision CAPTCHA-solving tool leveraging Python, OpenCV, and scikit-learn",
+        two: "Utilized Gaussian Naive Bayes, K-Nearest Classifier, and MLP Classifier models",
+        three: "Effectively decrypted distorted images containing numbers, successfully bypassing CAPTCHA tests with an 80% success rate"
+
+    },
+    {
+        id: "2",
         image: "https://avatars.githubusercontent.com/u/31045354?v=4",
         name: "IpserLab Summer Internship",
         tech: "React, Java, Tomcat, Node",
